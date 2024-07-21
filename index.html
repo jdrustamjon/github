@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Html darsi</title>
+</head>
+<body>
+	<div class="card">
+	<h1>So'ro'vnoma</h1><br/>
+	<form>
+		<div>
+		Ismingiz? 			<input type="text" name="givenName"><br/><br/>
+		Familiyangiz? 		<input type="text" name="lastName"><br/><br/>
+		Tug'ilgan sanangiz? <input type="date" name="bornDate"><br/><br/>
+		</div>
+		Jinsingiz?<br/>
+		<input type="radio" name="jins" id="men">
+		<label for="men">Erkak</label><br/>
+		<input type="radio" id="woman" name="jins">
+		<label for="woman">Ayol</label><br/>
+		Telefon raqamingiz? <input type="phone" name="phoneNumber" placeholder="+998 ** *** ** **"><br/>
+		Email adresingiz:<input type="text" name="Email" placeholder="a@a.com"><br/>
+		Qaysi davlatdansiz?<br/>
+		<select>
+			<option value="uz">O'zbekiston</option>
+			<option value="rus">Rossiya</option>
+			<option value="cz">Chexiya</option>
+			<option value="tj">Tojikiston</option>
+			<option value="kz">Qirg'iziston</option>
+		</select>
+		<br/><br/>
+		Yoqtirgan sport turingiz?<br/>
+		<label><input type="checkbox" name="football">Futbol</label><br/>
+		<label><input type="checkbox" name="chess">Shaxmat</label><br/>
+		<label><input type="checkbox" name="tennis">Tennis</label><br/>
+		</label>
+		Turmush qurganmisiz?<br/>
+		<input id="yes" type="radio" name="isMarried"><label for="yes">Xa</label><br/>
+		<input type="radio" name="isMarried" id="no"><label for="no">Yo'q</label><br/>
+		Qiziqishingiz haqida ma'lumot bering:<br/>
+		<textarea cols="30" rows="5"></textarea><br/>
+		<button>Jo'natish</button>
+		<button type="reset">Avvalgi holiga qaytarish</button>
+		</form>
+</body>
+</html>

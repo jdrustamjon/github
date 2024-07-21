@@ -1,0 +1,19 @@
+body {
+	background-color: rgb(229, 235, 243);
+}
+
+h1{
+	color: red;
+}
+div{
+	display: flex;
+}
+button{
+	color: navy;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+MX:wght@100..400&display=swap');
+ 
+h1{
+	font-family: "Open Sans", serif;
+}
+
